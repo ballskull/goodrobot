@@ -15,7 +15,7 @@
           return true;
         }
         else
-          current += jump_;
+          current += jump_;//yes
       }
       else
         current += i;
