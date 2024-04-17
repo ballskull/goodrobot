@@ -26,7 +26,7 @@
 public:
 
   explicit BMH_Search(std::ifstream& stream, 
-    const std::string& needle = "")
+    const std::string& needle = "")//nice
   {
     //case blind table
     for (int c = 0; c < 0x61; ++c) case_table[c] = c;
